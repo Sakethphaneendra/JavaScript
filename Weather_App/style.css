@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: rgb(24, 24, 24); 
+    align-items: center;
+       height: 100vh;
+}
+.card{
+    width: 30em;
+    height:fit-content;
+    text-align: center;
+    background: linear-gradient(60deg, rgba(0,160,243,1) 0%, rgba(0,176,180,1) 35%, rgba(0,255,213,1) 100%);
+    border-radius: 30px;
+    padding: 30px 10px;
+    
+}
+
+.search{
+    padding:0% 7%;
+    margin: 3%;
+}
+
+#cityName{
+    background: none;
+    border: none;
+    padding: 4px 45px ;
+    height: 60px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 30px;
+    background-color: white;
+}
+#search{
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    background: none;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/*  */
+
+.temp ,.city{
+    animation: photos 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-size: 4.5em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.city{
+    font-size: 2.6em;
+
+}
+.temp span{
+    font-style: oblique;
+    font-size: 0.6em;
+}
+
+.moredetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    animation: photos 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.humidity , .wind{
+    width: 40px;
+}
+.B1 , .B2{
+    margin: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes photos{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.photo{
+    animation: photos 2s;
+}
+
+
+.B1 h4{
+    color: white;
+    font-size: 1.7em;
+    padding-left: 5px;
+}
+.B1 h4 span{
+    font-size: 1em;
+}
+
+.B1 img{
+    width: 50px;
+    height: 50px;
+}
+
+.B2 img{
+    width: 50px;
+    height: 50px;
+}
+
+.B2 h4{
+    color: white;
+    font-size: 1.7em;
+    padding-left: 5px;
+}
+.B2 h4 span{
+    font-size: 0.9em;
+}
