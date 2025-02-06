@@ -1,0 +1,148 @@
+Here's a **detailed roadmap** for learning JavaScript before starting React, with a week-wise breakdown, key concepts, and suggested projects.  
+
+---
+
+# **🛣 JavaScript Roadmap to Master Before React**
+⏳ **Duration**: ~5-6 Weeks  
+🎯 **Goal**: Gain solid JavaScript skills to smoothly transition into React.
+
+---
+
+## **🔹 Week 1: JavaScript Fundamentals**  
+**📌 Key Topics:**  
+✅ Introduction to JavaScript  
+✅ How JS runs in the browser (Console, DevTools)  
+✅ **Variables & Data Types** (`var`, `let`, `const`, `string`, `number`, `boolean`, `null`, `undefined`)  
+✅ Operators (`+`, `-`, `*`, `/`, `%`, `**`, `&&`, `||`, `!`)  
+✅ Conditionals (`if-else`, `switch-case`)  
+✅ Loops (`for`, `while`, `do-while`, `forEach`)  
+✅ Functions (`function()`, Arrow Functions `()=>{}`)  
+
+**💡 Mini-Projects to Try:**  
+- 🚀 **Simple Calculator** (Takes two numbers, performs basic operations)  
+- 🚀 **Even/Odd Checker** (Takes a number, checks if even or odd)  
+
+---
+
+## **🔹 Week 2: Arrays, Objects & ES6+ Features**  
+**📌 Key Topics:**  
+✅ **Arrays & Methods**:  
+   - `push()`, `pop()`, `shift()`, `unshift()`  
+   - `map()`, `filter()`, `reduce()`, `find()`, `some()`, `every()`  
+✅ **Objects & Methods**:  
+   - `Object.keys()`, `Object.values()`, `Object.entries()`  
+✅ **ES6+ Features**:  
+   - Template Literals: `` `Hello, ${name}` ``  
+   - Spread (`...`) & Rest (`...args`) Operators  
+   - Destructuring (Arrays & Objects)  
+   - Default Parameters  
+✅ **Introduction to JavaScript Modules** (`import`, `export`)  
+
+**💡 Mini-Projects to Try:**  
+- 🚀 **To-Do List App** (Use arrays & `localStorage`)  
+- 🚀 **Array Sorter** (Sort numbers & strings using `sort()`)  
+- 🚀 **Object Formatter** (Convert array of objects into formatted text)  
+
+---
+
+## **🔹 Week 3: DOM Manipulation & Events**  
+**📌 Key Topics:**  
+✅ **DOM Selection & Manipulation**  
+   - `getElementById()`, `querySelector()`, `querySelectorAll()`  
+   - `innerText`, `innerHTML`, `classList.add()`, `classList.remove()`  
+✅ **Event Handling in JS**  
+   - `onclick`, `onchange`, `oninput`, `keydown`, `keyup`  
+   - `addEventListener()`, `removeEventListener()`  
+✅ **Event Propagation & Bubbling**  
+✅ **Form Handling & Input Validation**  
+✅ **Preventing Default Behavior (`event.preventDefault()`)**  
+
+**💡 Mini-Projects to Try:**  
+- 🚀 **Color Changer App** (Change background color on button click)  
+- 🚀 **Character Counter** (Count input characters live)  
+- 🚀 **Simple Form Validator** (Checks email, password length)  
+
+---
+
+## **🔹 Week 4: Asynchronous JavaScript & API Calls**  
+**📌 Key Topics:**  
+✅ **Synchronous vs. Asynchronous JavaScript**  
+✅ **Callbacks & Callback Hell**  
+✅ **Promises (`.then()`, `.catch()`)**  
+✅ **Async/Await**  
+✅ **Fetch API (`fetch()`, handling responses, error handling)**  
+✅ **Axios (Alternative to Fetch API)**  
+
+**💡 Mini-Projects to Try:**  
+- 🚀 **Random Joke Generator** (Fetch random jokes from an API)  
+- 🚀 **Weather App** (Fetch weather data from an API)  
+- 🚀 **GitHub User Finder** (Fetch user details from GitHub API)  
+
+---
+
+## **🔹 Week 5: Object-Oriented Programming (OOP) in JavaScript**  
+**📌 Key Topics:**  
+✅ **Prototypes & Prototype Inheritance**  
+✅ **ES6 Classes (`class`, `constructor`, `extends`, `super`)**  
+✅ **`this` keyword & its binding (`call`, `apply`, `bind`)**  
+✅ **Encapsulation, Inheritance, Polymorphism (Basic Understanding)**  
+
+**💡 Mini-Projects to Try:**  
+- 🚀 **Bank Account System** (Object-Oriented approach)  
+- 🚀 **Simple Inventory System** (Using classes & objects)  
+
+---
+
+## **🔹 Week 6: Error Handling, Storage & Final Practice**  
+**📌 Key Topics:**  
+✅ **Error Handling in JavaScript**  
+   - `try-catch-finally`  
+   - Throwing custom errors (`throw new Error()`)  
+✅ **Local & Session Storage**  
+   - `localStorage.setItem()`, `getItem()`, `removeItem()`  
+   - `sessionStorage` (Temporary storage)  
+✅ **Cookies (`document.cookie`)**  
+
+**💡 Final Mini-Projects:**  
+- 🚀 **Notes App** (Stores notes in `localStorage`)  
+- 🚀 **Expense Tracker** (Stores transactions in `localStorage`)  
+
+---
+
+## **🔹 Week 7: Final JavaScript Project & React Preparation**  
+Now that you have a solid grasp of JavaScript, try building a **big project** that includes multiple concepts.  
+
+### **💡 Final Project Ideas:**  
+✅ **Weather Dashboard** (Uses Fetch API, Async/Await, and DOM Manipulation)  
+✅ **Task Manager App** (CRUD operations with `localStorage`)  
+✅ **Movie Search App** (Fetch movies from an API)  
+
+Once you're comfortable with these concepts, you're **READY for React!** 🚀  
+
+---
+
+## **🚀 When Should You Start React?**  
+You’re ready to start React once you’re comfortable with:  
+✔️ ES6+ features (destructuring, spread/rest, template literals)  
+✔️ Array & Object methods (`map()`, `filter()`, `reduce()`)  
+✔️ Event handling & DOM manipulation  
+✔️ Async JavaScript (`Promises`, `fetch()`, `async/await`)  
+✔️ Working with APIs  
+
+---
+
+## **🔥 Additional Resources**  
+📖 **JavaScript Documentation**: [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+📹 **JavaScript Crash Course**: [Traversy Media YouTube](https://www.youtube.com/watch?v=hdI2bqOjy3c)  
+📹 **ES6+ Features**: [Academind YouTube](https://www.youtube.com/watch?v=NCwa_xi0Uuc)  
+📚 **Eloquent JavaScript** (Great Book)  
+
+---
+
+## **🎯 What’s Next?**  
+Once you finish JavaScript, you can start with:  
+✅ **React.js Basics** (`JSX`, Components, Props, State)  
+✅ **React Hooks (`useState`, `useEffect`)**  
+✅ **React Router, API calls in React**  
+
+Would you like a **React Roadmap** once you finish JavaScript? 🚀
